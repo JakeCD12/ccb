@@ -1,0 +1,120 @@
+/* Helper Styles: Do not Delete */
+body {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+	background-color: #AD6A02;
+}
+
+/* Put your CSS Styles Below this Line */
+
+h1 {
+	font-family: 'Anton', sans-serif;
+	color: #FFFFFF;
+	padding-top: 4%;
+}
+
+h2 {
+	font-family: 'Anton', sans-serif;
+	color: #673A13;
+	text-align: center;
+	font-size: 50px;
+}
+
+p {
+	font-family: 'Birthstone', cursive;
+	color: #000000;
+	font-size: 35px;
+	text-align: center;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.small {
+	font-family: 'Birthstone', cursive;
+	color: #000000;
+	font-size: 25px;
+	text-align: center;
+}
+
+header {
+	display: flex;
+	align-items: stretch;
+	
+}
+
+.header-right {
+	width:  100%;
+	background-image:  url(liquid.png);
+	position: relative;
+}
+
+.header-right h1 {
+	text-align: center;
+	margin:  0;
+}
+
+nav {
+	position: absolute;
+	bottom: 0;
+	left:  0;
+	right:  0;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin:  0;
+	padding: 0;
+}
+
+nav ul li {
+	border:  solid 5px white;
+	width: 25%;
+	text-align: center;
+	padding: 20px 0;
+	font-family: 'Anton', sans-serif;
+	font-size: 24px;
+}
+
+nav ul li a {
+	color:  white;
+	text-decoration: none;
+}
+
+section {
+	padding: 0 10%;
+}
+
+.flex-row {
+	display: flex;
+	align-items: stretch;
+}
+
+.pictures {
+	width:  50%;
+}
+
+.pictures img {
+	width:  100%;
+	height:  100%;
+}
+
+.info {
+	background-color: #D8D8D8;
+	width: 50%;
+}
+
+.pic {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.pic img {
+	width: 50px;
+	margin:  40% 25px;
+
+}
+
